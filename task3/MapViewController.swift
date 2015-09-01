@@ -9,12 +9,13 @@
 import UIKit
 import MapKit
 
-class MapViewController: UIViewController {
-    
+class MapViewController: UIViewController
+{
     var data: Data!
 
     @IBOutlet weak var mapView: MKMapView!
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         
         let location = CLLocation(latitude: data.latitude, longitude: data.longitude)

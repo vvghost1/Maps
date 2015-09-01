@@ -8,8 +8,8 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
-
+class TableViewCell: UITableViewCell
+{
     @IBOutlet weak var labelOutlet: UILabel!
     var localId: Int!
 }
